@@ -4,7 +4,9 @@
   "name": "A King's Ransom",
   "resources": [
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":15,},
-    {"id":{"name":"spr_nobody","path":"sprites/spr_nobody/spr_nobody.yy",},"order":16,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_nobody","path":"sprites/spr_nobody/spr_nobody.yy",},"order":0,},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

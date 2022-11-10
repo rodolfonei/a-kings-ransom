@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "A King's Ransom",
-    "path": "A King's Ransom.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }
