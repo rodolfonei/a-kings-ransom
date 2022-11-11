@@ -3,11 +3,15 @@
   "resourceVersion": "1.6",
   "name": "A King's Ransom",
   "resources": [
+    {"id":{"name":"spr_guard_nobody","path":"sprites/spr_guard_nobody/spr_guard_nobody.yy",},"order":2,},
+    {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},"order":3,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":15,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_king_nobody","path":"sprites/spr_king_nobody/spr_king_nobody.yy",},"order":1,},
+    {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},"order":2,},
     {"id":{"name":"spr_nobody","path":"sprites/spr_nobody/spr_nobody.yy",},"order":0,},
-    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":1,},
+    {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -27,7 +31,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

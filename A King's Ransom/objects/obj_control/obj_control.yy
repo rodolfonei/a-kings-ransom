@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object2",
+  "name": "obj_control",
   "spriteId": null,
   "solid": false,
   "visible": true,
