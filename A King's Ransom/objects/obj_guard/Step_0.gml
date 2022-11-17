@@ -12,7 +12,7 @@ switch myState {
 		path_end();
 		seenX = obj_player.x;
 		seenY = obj_player.y;
-		mp_potential_step(seenX, seenY, 10, 1);
+		mp_potential_step(seenX, seenY, spd*3, 1);
 	}; break;
 }
 
