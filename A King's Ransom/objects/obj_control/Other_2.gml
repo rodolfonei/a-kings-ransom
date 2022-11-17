@@ -6,6 +6,12 @@ enum playerState {
 	walking,
 }
 
+// Guards States
+enum guardState {
+	patrol,
+	chase,
+}
+
 
 
 
