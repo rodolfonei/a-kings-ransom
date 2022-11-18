@@ -6,7 +6,7 @@
     "name": "spr_box",
     "path": "sprites/spr_box/spr_box.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

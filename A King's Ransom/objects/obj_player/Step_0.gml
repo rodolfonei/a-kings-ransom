@@ -17,8 +17,12 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	x += vx;
-	y += vy;
+	if place_empty(x + vx, y, obj_box) {
+		x += vx;
+	}
+	if place_empty(x, y + vy, obj_box) { 
+		y += vy;
+	}
 	
 	// Change direction based on movement
 	if (vx > 0) {
