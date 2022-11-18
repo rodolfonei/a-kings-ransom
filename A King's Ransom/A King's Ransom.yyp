@@ -13,7 +13,9 @@
     {"id":{"name":"spr_nobody","path":"sprites/spr_nobody/spr_nobody.yy",},"order":0,},
     {"id":{"name":"path_guard_2","path":"paths/path_guard_2/path_guard_2.yy",},"order":1,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":3,},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":1,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":1,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},"order":0,},
   ],
   "Options": [
@@ -34,7 +36,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
