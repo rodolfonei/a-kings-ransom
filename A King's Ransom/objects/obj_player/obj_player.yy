@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "spr_nobody",
-    "path": "sprites/spr_nobody/spr_nobody.yy",
+    "name": "spr_Player_IdleFront",
+    "path": "sprites/spr_Player_IdleFront/spr_Player_IdleFront.yy",
   },
   "solid": false,
   "visible": true,

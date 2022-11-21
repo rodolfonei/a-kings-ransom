@@ -3,10 +3,10 @@
   "resourceVersion": "1.0",
   "name": "obj_guard",
   "spriteId": {
-    "name": "spr_guard_nobody",
-    "path": "sprites/spr_guard_nobody/spr_guard_nobody.yy",
+    "name": "spr_Enemy_IdleFront",
+    "path": "sprites/spr_Enemy_IdleFront/spr_Enemy_IdleFront.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

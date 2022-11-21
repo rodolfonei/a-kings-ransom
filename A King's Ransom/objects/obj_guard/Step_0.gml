@@ -21,7 +21,23 @@ switch myState {
 	}; break;
 }
 
+dir = round(direction)
+finalDir = 3;
 
+if (dir >= 0 && dir < 45 || dir >= 315) {
+	finalDir = 0;
+}
 
+if (dir >= 45 && dir < 135) {
+	finalDir = 1;
+}
 
+if (dir >= 135 && dir < 270) {
+	finalDir = 2;
+}
+if (dir >= 270 && dir < 315) {
+	finalDir = 3;
+}
+
+sprite_index = guardSpr[guardState.patrol][finalDir];
 
