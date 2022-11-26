@@ -6,7 +6,7 @@ switch myState {
 			// código mágico de patrol pra guardar pra sempre
 			if abs(angle_difference(direction, point_direction(x, y, obj_player.x, obj_player.y))) < cone
 			&& distance_to_point(obj_player.x, obj_player.y) < sightDist
-			&& !collision_line(x,y,obj_player.x,obj_player.y,obj_box,1,1) {
+			&& !collision_line(x, y, obj_player.x, obj_player.y, obj_wall, 1, 1) {
 				myState = guardState.chase;
 			}
 		}

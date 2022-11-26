@@ -17,10 +17,10 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	if place_empty(x + vx - offset, y - offset, obj_box) {
+	if place_empty(x + vx - offset, y - offset, obj_wall) {
 		x += vx;
 	}
-	if place_empty(x - offset, y + vy - offset, obj_box) { 
+	if place_empty(x - offset, y + vy - offset, obj_wall) { 
 		y += vy;
 	}
 	
