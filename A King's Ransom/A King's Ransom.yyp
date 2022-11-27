@@ -6,7 +6,9 @@
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"order":4,},
     {"id":{"name":"spr_Player_IdleBack","path":"sprites/spr_Player_IdleBack/spr_Player_IdleBack.yy",},"order":2,},
     {"id":{"name":"spr_guard_nobody","path":"sprites/spr_guard_nobody/spr_guard_nobody.yy",},"order":2,},
+    {"id":{"name":"spr_Letter","path":"sprites/spr_Letter/spr_Letter.yy",},"order":0,},
     {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},"order":3,},
+    {"id":{"name":"Dungeon_Tilemap","path":"sprites/Dungeon_Tilemap/Dungeon_Tilemap.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_king_nobody","path":"sprites/spr_king_nobody/spr_king_nobody.yy",},"order":1,},
     {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},"order":2,},
@@ -69,6 +71,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UX","folderPath":"folders/Sprites/UX.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
