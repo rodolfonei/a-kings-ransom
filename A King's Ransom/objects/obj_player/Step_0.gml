@@ -17,10 +17,14 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	if place_empty(x + vx - offset, y - offset, obj_wall) {
+	if place_empty(x + vx - offset, y - offset, obj_wall) 
+	&& !collision_point(x + vx, y, obj_block, true, true)
+	{
 		x += vx;
 	}
-	if place_empty(x - offset, y + vy - offset, obj_wall) { 
+	if place_empty(x - offset, y + vy - offset, obj_wall) 
+	&& !collision_point(x, y + vy, obj_block, true, true)
+	{ 
 		y += vy;
 	}
 	

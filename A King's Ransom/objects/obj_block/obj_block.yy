@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_king",
+  "name": "obj_block",
   "spriteId": {
-    "name": "spr_King",
-    "path": "sprites/spr_King/spr_King.yy",
+    "name": "spr_Block",
+    "path": "sprites/spr_Block/spr_Block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
