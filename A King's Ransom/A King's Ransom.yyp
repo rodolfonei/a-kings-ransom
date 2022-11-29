@@ -14,6 +14,7 @@
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":6,},
     {"id":{"name":"spr_King","path":"sprites/spr_King/spr_King.yy",},"order":0,},
     {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},"order":2,},
+    {"id":{"name":"rm_Intro","path":"rooms/rm_Intro/rm_Intro.yy",},"order":4,},
     {"id":{"name":"spr_Enemy_IdleRight","path":"sprites/spr_Enemy_IdleRight/spr_Enemy_IdleRight.yy",},"order":1,},
     {"id":{"name":"spr_Enemy_IdleLeft","path":"sprites/spr_Enemy_IdleLeft/spr_Enemy_IdleLeft.yy",},"order":3,},
     {"id":{"name":"spr_Player_IdleLeft","path":"sprites/spr_Player_IdleLeft/spr_Player_IdleLeft.yy",},"order":3,},
@@ -53,6 +54,7 @@
     {"roomId":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_gameMain2","path":"rooms/rm_gameMain2/rm_gameMain2.yy",},},
+    {"roomId":{"name":"rm_Intro","path":"rooms/rm_Intro/rm_Intro.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
