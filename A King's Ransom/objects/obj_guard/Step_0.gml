@@ -7,6 +7,7 @@ switch myState {
 			if abs(angle_difference(direction, point_direction(x, y, obj_player.x, obj_player.y))) < cone
 			&& distance_to_point(obj_player.x, obj_player.y) < sightDist
 			&& !collision_line(x, y, obj_player.x, obj_player.y, obj_wall, 1, 1) {
+				audio_play_sound(snd_seen, 2, 0);
 				myState = guardState.chase;
 			}
 		}

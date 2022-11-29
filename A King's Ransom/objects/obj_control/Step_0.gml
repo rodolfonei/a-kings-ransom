@@ -4,10 +4,13 @@
 if (keyboard_check_pressed(vk_enter)) {
 	switch(room) {
 		case rm_start:
+			audio_play_sound(snd_enter, 2, 0);
 			room_goto(rm_Intro);
+			audio_play_sound(Ardie_Son___Aftershocks, 1, 1);
 			break;
 			
 		case rm_Intro:
+			audio_play_sound(snd_enter, 2, 0);
 			room_goto(rm_gameMain2);
 			break;
 			
