@@ -18,7 +18,7 @@ switch myState {
 		if (instance_exists(obj_player)) {
 			seenX = obj_player.x;
 			seenY = obj_player.y;
-			mp_potential_step(seenX, seenY, spd*3, false);
+			mp_potential_step(seenX, seenY, spd*3.5, false);
 		}
 	}; break;
 }

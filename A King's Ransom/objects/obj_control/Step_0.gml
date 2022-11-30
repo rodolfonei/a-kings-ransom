@@ -6,7 +6,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		case rm_start:
 			audio_play_sound(snd_enter, 2, 0);
 			room_goto(rm_Intro);
-			audio_play_sound(Ardie_Son___Aftershocks, 1, 1);
+			audio_play_sound(Michele_Nobler___What_Are_You_Doing_Here, 1, 1);
 			break;
 			
 		case rm_Intro:
