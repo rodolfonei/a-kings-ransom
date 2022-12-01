@@ -1,6 +1,6 @@
 /// @description Insert description here
 spd = 5;
-sightDist = 1500;
+sightDist = 1800;
 seenX = x;
 seenY = y;
 cone = 45;
