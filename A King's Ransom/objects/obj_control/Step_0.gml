@@ -15,11 +15,11 @@ if (keyboard_check_pressed(vk_enter)) {
 			break;
 			
 		case rm_gameMain2:
-			game_restart();
+			room_goto(rm_Intro);
 			break;
 			
 		case rm_win:
-			game_restart();
+			room_goto(rm_Intro);
 			break;
 	}
 }
